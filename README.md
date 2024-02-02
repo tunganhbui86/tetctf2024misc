@@ -6,13 +6,17 @@
 
 ## What I did:
 
-First I download the file in this challenge
+First I downloaded the file in this challenge and unzipped some file inside.
 /img
 /img
-So i see .ad1 file so I research and find that can use ftk imager to open and extract it so I download it but it was exe file so I just download wine using brew
+So i saw .ad1 file so I researched and find that can use FTK imager to open and extract so I downloaded it but it was .exe file so I just downloaded wine using brew
 ```
 $brew install --cask xquartz
 $brew install --cask wine-stable
 ```
-
+so I open the ftk imager
+/img
+click the ima ger and choose the ad1 file
+/img
+and you see the directory.Then I 
 
