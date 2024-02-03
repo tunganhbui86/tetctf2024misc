@@ -6,10 +6,10 @@
 
 ## What I did:
 
-First I downloaded the file in this challenge and unzipped some file inside.
+First I downloaded the file in this challenge and unzipped some files inside.
 /img
 /img
-Then after I unzip the zip file I got raw file and I open it with terminal using strings and see the flag 2 and other fake ip and port(which I think is the IP that I am finding)
+Then after I unzipped the zip file I got the raw file and I open it with terminal using strings and see the flag 2 and other fake ip and port(which I think is the IP that I am finding)
 /img
 /img
 So i saw .ad1 file so I researched and find that can use FTK imager to open and extract so I downloaded it but it was .exe file so I just downloaded wine using brew
@@ -34,9 +34,14 @@ Then I found some other log file but I had no idea about how to use it.
 After that, I think that there is some file on the directory in .lnk files so I think I need to recovery file and try some.I download a tools name Foremost and start to recovery file but there is nothing again.
 /img
 
-#The last things I do
-So I just research again and find [volatility3](https://volatility3.readthedocs.io/en/stable/)
+### The last things I do
+So I just researched again and found [volatility3](https://volatility3.readthedocs.io/en/stable/).I read this [site](https://www.varonis.com/blog/how-to-use-volatility) and know how to use it. I try lots of things and at the windows.netscan, I cant use it.
+/img
+/img
+
+<p align="center">So I give up...because it was almost 4 am.
 
 
+# That all this is the write up for this [challenge](https://ctf.krauq.com/tetctf-2024)
 
 
